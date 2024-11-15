@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #e0e0e0;
+}
+
+
+.menunav {
+    background-color: #85c1e9;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.menunav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.menunav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-family: Jost, sans-serif;
+}
+
+.menunav li {
+    margin: 0 15px;
+}
+
+.menunav a:hover {
+    color: #f0f3f4 ;
+}
+
+/*Desde aqui va todo lo que es debajo del meno nav*/
+
+.box {
+    display: flex;
+    padding: 20px 20px;
+    height: 30vh;
+    margin-top: 10px;
+}
+
+.box1 {
+    display: flex;
+    background-color: #cfd8dc ;
+    width: 15cm;
+    height: 9cm;
+    margin-left: 1em;
+    border-radius: 15px;
+    margin-top: 2px;
+}
+
+.box2 {
+    display: flex;
+    background-color: #cfd8dc ;
+    width: 15cm;
+    height: 9cm;
+    margin-left: 1em;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.box1:hover {
+    background-color: black;
+}
+
+.box2:hover {
+    background-color: black;
+}
+
+.box1 h3 {
+    display: flex;
+    text-align: center;
+    color: #cfd8dc;
+    padding-left: 1em;
+    font-family: Jost, sans-serif;
+    font-size: 50px;
+}
