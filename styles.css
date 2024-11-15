@@ -67,11 +67,13 @@ body{
 }
 
 .box1:hover {
-    background-color: black;
+    background-color: #bdbdbd;
+    transform: scale(1.02);
 }
 
 .box2:hover {
-    background-color: black;
+    background-color: #bdbdbd ;
+    transform: scale(1.02);
 }
 
 .box1 h3 {
