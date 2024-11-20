@@ -49,8 +49,8 @@ body{
 .box1 {
     display: flex;
     background-color: #cfd8dc ;
-    width: 15cm;
-    height: 9cm;
+    width: 10cm;
+    height: 7cm;
     margin-left: 1em;
     border-radius: 15px;
     margin-top: 2px;
@@ -59,11 +59,11 @@ body{
 .box2 {
     display: flex;
     background-color: #cfd8dc ;
-    width: 15cm;
-    height: 9cm;
+    width: 10cm;
+    height: 7cm;
     margin-left: 1em;
     border-radius: 15px;
-    margin-top: 70px;
+    margin-top: 25px;
 }
 
 .box1:hover {
