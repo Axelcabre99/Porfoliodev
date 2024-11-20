@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono&family=Montserrat:wght@300&family=Permanent+Marker&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #d7dbdd;
     display: flex;
     justify-content: center;
     height: 100vh;
     margin: 0;
+    font-family: "Geist Mono", monospace;
+    position: relative;
+    
 }
 
 .login-container {
@@ -16,16 +20,17 @@ body {
     width: 500px;
     height: 300px;
     margin-top: 40px;
+    box-shadow: 5px 5px 20px 20px rgba(121, 125, 127);
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 label {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 5px;
     display: block;
 }
@@ -37,6 +42,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+    font-family: "Geist Mono", monospace;
 }
 
 .login-container button {
@@ -50,15 +56,32 @@ input {
     cursor: pointer;
 }
 
+input::placeholder {
+    font-family: "Geist Mono", monospace;
+}
+
+
+
 button:hover {
-    background-color: #45a049;
+    background-color: #7d857d;
+}
+
+button{
+    font-family: "Geist Mono", monospace;
 }
 
 .volver{
-    display: flex;
-    justify-content: left;
+    position: absolute; /* Posiciona el contenedor fuera del flujo centrado */
+    left: 20px; /* Puedes ajustar la distancia desde el borde izquierdo */
+    top: 20px;
+
 }
 .volver button {
-    height: 25px;
-    width: 45px;
+    position: absolute;
+    left: 0;
+    height: 1cm;
+    width: 4cm;
+    border-radius: 20px;
+    border: none;
+        
 }
