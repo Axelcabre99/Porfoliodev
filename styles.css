@@ -76,11 +76,3 @@ body{
     transform: scale(1.02);
 }
 
-.box1 h3 {
-    display: flex;
-    text-align: center;
-    color: #cfd8dc;
-    padding-left: 1em;
-    font-family: Jost, sans-serif;
-    font-size: 50px;
-}
